@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap');
+
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: #e8d5a3;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ─── Royal Gold Palette ─── */
+:root {
+  --gold-light:  #f5d87a;
+  --gold-mid:    #c9a84c;
+  --gold-dark:   #8a6a1f;
+  --gold-glow:   rgba(201,168,76,0.25);
+  --bg-dark:     #080808;
+  --bg-card:     rgba(255,255,255,0.03);
+  --border:      rgba(201,168,76,0.18);
+}
+
+/* ─── Glassmorphism ─── */
+.glass {
+  background: var(--bg-card);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+}
+
+/* ─── Gold Gradient Text ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #f5d87a 0%, #c9a84c 50%, #f5d87a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Section utility ─── */
+.section {
+  @apply max-w-7xl mx-auto px-6 md:px-10;
+}
+
+/* ─── Section heading accent ─── */
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #f5d87a, #c9a84c);
+  border-radius: 999px;
+}
+
+/* ─── Gold Glow Button ─── */
+.btn-gold {
+  background: linear-gradient(135deg, #c9a84c, #f5d87a, #c9a84c);
+  color: #0d0d0d;
+  font-weight: 700;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(201,168,76,0.3);
+}
+.btn-gold:hover {
+  box-shadow: 0 0 35px rgba(245,216,122,0.55);
+  transform: translateY(-2px);
+}
+
+/* ─── Outlined Gold Button ─── */
+.btn-outline {
+  background: transparent;
+  color: #f5d87a;
+  border: 1px solid rgba(201,168,76,0.5);
+  transition: all 0.3s ease;
+}
+.btn-outline:hover {
+  background: rgba(201,168,76,0.1);
+  border-color: #f5d87a;
+  box-shadow: 0 0 20px rgba(245,216,122,0.2);
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background: #0d0d0d; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c9a84c, #8a6a1f);
+  border-radius: 10px;
+}
+
+/* ─── Particle / orb blobs ─── */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.12;
+  pointer-events: none;
+}
+.orb-gold {
+  background: radial-gradient(circle, #f5d87a, #c9a84c);
+}
+.orb-amber {
+  background: radial-gradient(circle, #fbbf24, #92400e);
+}
+
+/* ─── Card hover glow ─── */
+.card-hover {
+  transition: all 0.35s ease;
+}
+.card-hover:hover {
+  border-color: rgba(201,168,76,0.55) !important;
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(201,168,76,0.12);
+}
+
+/* ─── Skill pill ─── */
+.skill-pill {
+  background: rgba(201,168,76,0.07);
+  border: 1px solid rgba(201,168,76,0.2);
+  color: #e8d5a3;
+  transition: all 0.25s ease;
+}
+.skill-pill:hover {
+  background: rgba(201,168,76,0.18);
+  border-color: #f5d87a;
+  color: #f5d87a;
+}
+
+/* ─── Timeline ─── */
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(135deg, #f5d87a, #c9a84c);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(201,168,76,0.6);
+}
+
+/* ─── Input focus gold ─── */
+.input-gold {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid rgba(201,168,76,0.2);
+  color: #e8d5a3;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+.input-gold::placeholder { color: rgba(232,213,163,0.35); }
+.input-gold:focus {
+  border-color: #c9a84c;
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.12);
+}
