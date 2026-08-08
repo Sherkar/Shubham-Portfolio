@@ -166,16 +166,16 @@ function Hero() {
                 boxShadow: "0 0 60px rgba(201,168,76,0.2)",
               }}
             >
-              {/* Initials fallback — replace src with /profile.jpg when you add your photo */}
-              <img
-                src="/photo.png"
-                alt="Shubham Sherkar"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.target.style.display = "none";
-                  e.target.nextSibling.style.display = "flex";
-                }}
-              />
+{/* Profile image */}
+             <img
+  src="https://res.cloudinary.com/sfyjkrej/image/upload/v1786196931/My_uxhe5v.png"
+  alt="Shubham Sherkar"
+  className="w-full h-full object-contain"
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+    e.currentTarget.nextSibling.style.display = "flex";
+  }}
+/>
               <div
                 className="hidden w-full h-full items-center justify-center flex-col gap-2"
                 style={{ display: "none" }}
