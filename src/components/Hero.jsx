@@ -319,7 +319,7 @@ function Hero() {
               ================================================== */}
 
               <img
-                src="https://res.cloudinary.com/sfyjkrej/image/upload/v1786196931/My_uxhe5v.png"
+                src="https://res.cloudinary.com/sfyjkrej/image/upload/v1788934728/ChatGPT_Image_Aug_27_2026_03_30_00_PM_h4rcrb.png"
                 alt="Shubham Sherkar"
                 className="
                   w-full
