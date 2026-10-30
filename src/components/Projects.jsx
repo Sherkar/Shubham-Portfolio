@@ -4,8 +4,8 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "BookSip – Personal Knowledge Vault",
-    emoji: "📚",
+    title: "Swarajya Gatha (स्वराज्यगाथा",
+    emoji: "🚩",
     tech: [
       "Java",
       "Spring Boot",
@@ -18,10 +18,10 @@ const projects = [
       "REST APIs",
     ],
     desc:
-      "A full-stack web application that enables users to seamlessly manage personal book libraries, summaries, highlights, ratings, and key takeaways. Features role-based authorization, community book sharing, reading statistics, and a responsive modern dashboard.",
-    github: "https://github.com/Sherkar",
+      "Developed a bilingual heritage platform for exploring Maharashtra’s historical forts, with historical information and trekking details in English and Marathi.",
+    github: "https://github.com/Sherkar/Swarajya-Gatha-Backend",
     live: "#",
-    image: "/booksip.png",
+    image: "Swarajya.png",
     color: "from-[#c9a84c] to-[#8a6a1f]",
   },
   {
