@@ -77,19 +77,18 @@ function About() {
           </h3>
 
           <p className="text-[#e8d5a3]/70 leading-9 text-base">
-            I'm <span className="text-[#f5d87a] font-semibold">Shubham Sherkar</span>, a passionate 
-            Java Full Stack Developer with a strong foundation in both frontend and backend technologies.
+            I'm <span className="text-[#f5d87a] font-semibold">Shubham Sherkar</span>,a Java Full Stack Developer who enjoys turning ideas into practical solutions through code
           </p>
 
           <p className="text-[#e8d5a3]/70 leading-9 text-base mt-5">
             I completed my internship at <span className="text-[#f5d87a] font-semibold">Kiran Academy (Java By Kiran)</span> as 
-            a Trainee and Intern, where I gained practical experience building real-world web applications 
-            using Java, Spring Boot, Hibernate, React.js, and REST APIs.
+            a Trainee and Intern, where I gained hands-on experience building web applications using Java, Spring Boot, Hibernate, React.js, and REST APIs.
           </p>
 
           <p className="text-[#e8d5a3]/70 leading-9 text-base mt-5">
-            I thrive on solving complex problems, writing clean code, and continuously leveling up my skills. 
-            I believe in building software that is not just functional, but crafted with elegance and purpose.
+            I enjoy exploring how things work, solving problems, and learning something new along the way. For me, software development is not just about writing code; it's about understanding problems, thinking through solutions, and building things that make a difference.
+
+            I'm always looking forward to new challenges, opportunities to grow, and the chance to create something meaningful.
           </p>
 
           <div className="flex flex-wrap gap-3 mt-8">
