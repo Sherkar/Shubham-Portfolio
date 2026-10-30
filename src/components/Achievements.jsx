@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 import { FaTrophy, FaCertificate, FaLaptopCode, FaRocket, FaFlag } from "react-icons/fa";
 
 const certifications = [
+   {
+    icon: <FaCertificate />,
+    title: "Technology Job Simulation",
+    badge: "Deloitte (2026)",
+    desc: "Built Python solutions for telemetry data integration, implemented JSON data transformation with unit testing, and prepared a development proposal for a real-time manufacturing dashboard. This experience strengthened my problem-solving and software development skills.",
+    color: "from-[#f5d87a] to-[#c9a84c]",
+  },
   {
     icon: <FaCertificate />,
     title: "5-Day AI Agents: Intensive Vibe Coding",
