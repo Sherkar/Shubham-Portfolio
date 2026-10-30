@@ -121,11 +121,8 @@ function Hero() {
           {/* ================= DESCRIPTION ================= */}
 
           <p className="text-[#e8d5a3]/60 mt-6 leading-7 sm:leading-8 text-sm sm:text-base max-w-xl">
-            Passionate Java Full Stack Developer with hands-on
-            internship experience building scalable web applications.
-            Skilled in Java, Spring Boot, Hibernate, React.js, REST
-            APIs and MySQL. Focused on crafting elegant,
-            high-performance software solutions.
+           Java Full Stack Developer with hands-on internship experience building web applications using Java, Spring Boot, Hibernate, React.js, REST APIs, and MySQL. I enjoy solving problems, writing clean and maintainable code, and turning ideas into practical solutions. Always eager to learn, take on new challenges, and grow as a developer.
+
           </p>
 
           {/* ================= CTA BUTTONS ================= */}
